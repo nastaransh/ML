@@ -1,0 +1,5 @@
+number1, number2, number3 = map(int, input('please enter 3 numbers').split())
+max_number = max(number1, number2, number3)
+min_number = min(number1, number2, number3)
+print('max is :', max_number)
+print('min is:', min_number)
